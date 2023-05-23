@@ -1,0 +1,22 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+
+global using Orders.Application.AutoMapper;
+global using Microsoft.EntityFrameworkCore;
+global using Orders.Infra.Utils.Context;
+global using Orders.Infra.IoC;
+global using Orders.Api.Filters;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
+global using Orders.Api.Common;
+global using Orders.Application.Contracts.Interfaces;
+global using Orders.Application.Contracts.ViewModel;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using Newtonsoft.Json;
+global using Orders.Api.Configurations;
+global using Serilog;
+global using Serilog.Events;
+global using System.Net;
+global using Orders.Api.Middleware;
